@@ -1,6 +1,6 @@
 S,K=input().split()
 K=int(K)
-if 1>=K or K>len(S):
+if 1>K or K>len(S):
     K=int(input())
 c=[]
 for i in range(len(S)):
